@@ -11,6 +11,8 @@ import {
 import React, { useEffect, useState } from "react";
 import Browse from "./Containers/Browse/Browse";
 import GamePage from "./Containers/GamePage/GamePage";
+import "./App.module.css";
+
 import NotFound from "./Containers/NotFound/NotFound";
 import Home from "./Containers/Home/Home";
 import { AnimatePresence } from "framer-motion";
