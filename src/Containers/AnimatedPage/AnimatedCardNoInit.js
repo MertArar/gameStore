@@ -1,4 +1,4 @@
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import React from "react";
 
 import styles from "./AnimatedCard.module.css";
@@ -23,6 +23,7 @@ const AnimatedCardNoInit = ({ children }) => {
       initial="initial"
       animate="animate"
       exit="exit"
+      className="motion"
     >
       {children}
     </motion.div>

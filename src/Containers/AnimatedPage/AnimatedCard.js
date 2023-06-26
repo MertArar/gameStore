@@ -18,6 +18,7 @@ const AnimatedCard = ({ children }) => {
       variants={animations}
       initial="initial"
       animate="animate"
+      className="motion"
     >
       {children}
     </motion.div>
