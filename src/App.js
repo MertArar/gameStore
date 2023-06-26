@@ -25,7 +25,7 @@ function App() {
     <AnimatePresence>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<Browse />} />
+        <Route path="/browse" element={<Browse />} />
         <Route path="/" element={<GamePage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
